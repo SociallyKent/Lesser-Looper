@@ -16,7 +16,7 @@ Controls:
 Hold and drag Right Click on Button
 
 ___
-日本語操作方法
+日本語
 
 ### Lesser-Looper
 操作方法
