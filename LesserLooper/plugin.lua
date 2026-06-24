@@ -13,11 +13,11 @@ local FWindow =-- Flags(of)Window
 local DCTimer = 0--Double-Click Timer
 local MHeld = false--Mouse Held
 local MPos--MousePos
-local COff = true
 local floor, min, split = math.floor, math.min, math.modf --faster by ~1.5x
 local function main()
 	gui.Begin(NWindow, FWindow)
 	if chart.refresh then
+		chart.refresh = false
 		local Count = #chart.notes
 		if Count == 0 then
 			gui.Off()
